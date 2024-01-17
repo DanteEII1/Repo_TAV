@@ -1,7 +1,179 @@
 .fondo{
-    background-color: wheat;
+    background-color: rgb(230, 230, 230);
     padding: 10px;
-    border-color: black;
+    border-color: rgba(0, 0, 0, 0.178);
     border-style:ridge;
 
+}
+.img {
+    width: auto;    
+    height: auto;/* El div se centra en el eje x */
+    position: relative; /* Para que el seudoelemente esté dentro del elemento con esta clase */
+    overflow: hidden; /* Para que todo lo que salga del div con esta clase no se muestre */
+}
+  
+  .img::after {
+    content:" Alfajores de Maicena";
+    font-size: 2rem;
+    font-weight: 500;
+    color: black;
+    background-color: rgba(240, 240, 240, 0.75);
+    position: absolute;
+    inset: 0;
+    /* Con las siguientes 2 líneas consigo centrar el contenido en el div tanto en X como en Y */
+    display: grid;
+    place-items: center;
+    transform: translateY(100%); /* Lo saco del div para que no se vea */
+    transition: transform .4s;    
+  }
+  
+.img:hover::after {
+    transform: translateY(0); /* Lo muevo al div */
+}
+
+.zoom{
+    transition: 1s;
+}
+
+.zoom:hover{
+    transform: scale(.8);
+}
+
+.slide-item h1{
+    margin-top: -500px;
+    text-shadow: 1px 1px;
+    font-size: 30px;
+}
+
+.d-img{
+    height: 500px;
+}
+
+.nav-item{
+    text-shadow: 1px 1px grey;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #f0f0f0;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.card{
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.card img{
+    width: 100%;
+    height: 210px;
+
+}
+
+.card-content{
+    padding: 16px
+}
+
+.card-content h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+
+}
+
+.card-content p{
+    color:#666;
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+.card-content .btn{
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: #f0f0f0;
+}
+
+#icon{
+    color: rgb(236, 0, 0);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+iframe{
+    display: block;
+    width: 50%; 
+    margin: auto;
+}
+
+.zoom2{
+    transition: 1s;
+}
+
+.zoom2:hover{
+    transform: scale(1.2);
+}
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+input {
+    float: left;
+    margin-bottom: 10px;
+}
+
+label {
+    clear: both;
+    float: left;
+    width: 150px;
+}
+
+#enviar {
+    clear: both;
+    float: left;
+    width: 150px;
+}
+
+.error-control {
+    border: 1px solid red;
+}
+
+label.error {
+    color: red;
+    width: 250px;
+    font-size: 0.8em;
+    margin-top: -5px;
+    margin-bottom: 10px;
+}
+
+#watch{
+    display: flex;
+    align-items: end;
+    justify-content: left;
+    width: 25px;
+    height: 25px;
+    color: black;
+    font-size: 1.3rem;
 }

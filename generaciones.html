@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos2.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="shortcut icon" href="imagenes/loguito.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Galería de Imagenes</title>
+    <style>body{
+      background-color: rgb(253, 198, 221);
+    }</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: rgb(251,143,176);">
+        <!-- Brand -->
+        <img class="logo" src="imagenes/loguito.ico" alt="logo" style="width:40px;">
+        <a class="navbar-brand" href="inicio.html"></a>
+    
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="inicio.html" style="color: white;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-house-fill" viewBox="0 0 20 20">
+                <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z"/>
+                <path d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293z"/>
+              </svg><strong>Inicio</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nuestra misión.html" style="color: white;"><strong>Nuestra Misión</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="generaciones.html" style="color: white;"><strong>Galería de Imagenes</strong></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="registrarse.html" style="color: white;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 20 20">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+              </svg><strong>Registro</strong></a>
+          </li>
+            <li class="nav-item">
+              <form class="form-inline" action="/action_page.php">
+                <input style="width: 40%;" class="form-control mr-sm-2" type="text" placeholder="Buscar...">
+                <button class="btn btn-dark" type="submit"><strong>Buscar</strong></button>
+              </form>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <br><br><br>
+      <u onmouseover="style.color = 'orange'" onmouseout="style.color= 'black'"><h1 style="text-align: center;" onmouseover="style.color = 'orange'" onmouseout="style.color= 'black'"><strong>PRODUCTOS</strong></h1></u>
+      <div class="card-container">
+        <div class="card zoom">
+          <img src="imagenes/pielimon2.jpg">
+          <div class="card-content">
+            <h4>Pie de limón</h4>
+            <p>Delicioso postre con base de masa quebrada, rellena de crema de limón y cubierta con merengue.</p>
+            <h5>$9.990</h5>
+            <a href="" class="btn btn-secundary">Ver Producto <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 20 20">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+            </svg></a>
+          </div>
+        </div>  
+        <div class="card zoom">
+          <img src="imagenes/tortita2.jpg">
+            <div class="card-content">
+              <h4>Torta de panqueque y chocolate</h4>
+              <p>Deliciosa torta de panqueque de chocolate rellena de crema, manjar y ganache de chocolate. (15 personas)</p>
+              <h5>$34.990</h5>
+                <a href="" class="btn btn-secundary">Ver Producto <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 20 20">
+                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                </svg></a>
+            </div>
+        </div>
+          <div class="card zoom">
+            <img src="imagenes/tortavaso2.jpg">
+              <div class="card-content">
+                <h4>Torta en Vaso</h4>
+                <p>Vaso con capas de bizcocho, manjar y crema pastelera.</p>
+                <h5>$1.490</h5>
+                <a href="" class="btn btn-secundary">Ver Producto <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 20 20">
+                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                </svg></a>
+              </div>
+          </div>
+          <div class="card zoom">
+            <img src="imagenes/galeria/alfajores de chocolate.jpg">
+              <div class="card-content">
+                <h4>Alfajores de Chocolates</h4>
+                <p>Alfajores cubiertos de chocolate con relleno de manjar (5 unidades)</p>
+                <h5>$1.490</h5>
+                <a href="" class="btn btn-secundary">Ver Producto <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 20 20">
+                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                </svg></a>
+              </div>
+          </div>
+          <div class="card zoom">
+            <img src="imagenes/galeria/alfajores de maicena.jpg">
+              <div class="card-content">
+                <h4>Alfajores de Maicena</h4>
+                <p>Alfajores de Maicena con relleno de manjar y coco (5 unidades)</p>
+                <h5>$1.490</h5>
+                <a href="" class="btn btn-secundary">Ver Producto <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 20 20">
+                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                </svg></a>
+              </div>
+          </div>
+          <div class="card zoom">
+            <img src="imagenes/galeria/brazoreina.jpeg">
+              <div class="card-content">
+                <h4>Brazo de Reina</h4>
+                <p>Rollo de bizcocho relleno con manjar o crema</p>
+                <h5>$7.990</h5>
+                <a href="" class="btn btn-secundary">Ver Producto <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 20 20">
+                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                </svg></a>
+              </div>
+          </div>
+          <div class="card zoom">
+            <img src="imagenes/galeria/flancaramelo.jpg">
+              <div class="card-content">
+                <h4>Flan de Caramelo</h4>
+                <p>Postre gelatinoso con textura cremosa bañada con caramelo</p>
+                <h5>$3.990</h5>
+                <a href="" class="btn btn-secundary">Ver Producto <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 20 20">
+                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                </svg></a>
+              </div>
+          </div>
+          <div class="card zoom">
+            <img src="imagenes/galeria/kuchennuez.jpg">
+              <div class="card-content">
+                <h4>Kuchen de Nuez</h4>
+                <p>Pastel con una masa suave y relleno de nueces caramelizadas (6 personas)</p>
+                <h5>$11.490</h5>
+                <a href="" class="btn btn-secundary">Ver Producto <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 20 20">
+                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                </svg></a>
+              </div>
+          </div>
+          <div class="card zoom">
+            <img src="imagenes/galeria/tortayogurtvaso.jpg">
+              <div class="card-content">
+                <h4>Torta de Yogurt en vaso</h4>
+                <p>vaso con relleno de bizcocho y yogurt</p>
+                <h5>$1.490</h5>
+                <a href="" class="btn btn-secundary">Ver Producto <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 20 20">
+                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                </svg></a>
+              </div>
+          </div>
+          <div class="card zoom">
+            <img src="imagenes/galeria/quequito.jpg">
+              <div class="card-content">
+                <h4>Queque</h4>
+                <p>Bizcocho de vainilla con una textura suave con azúcar en polvo</p>
+                <h5>$4.990</h5>
+                <a href="" class="btn btn-secundary">Ver Producto <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 20 20">
+                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                </svg></a>
+              </div>
+          </div>
+          <div class="card zoom">
+            <img src="imagenes/galeria/tiramisu.jpg">
+              <div class="card-content">
+                <h4>Tiramisu</h4>
+                <p>Postre con bases de galletas de champaña y queso crema y café (6 personas)</p>
+                <h5>$9.990</h5>
+                <a href="" class="btn btn-secundary">Ver Producto <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 20 20">
+                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                </svg></a>
+              </div>
+          </div>
+          <div class="card zoom">
+            <img src="imagenes/galeria/tortamanjarate.jpg">
+              <div class="card-content">
+                <h4>Torta de Manjarate</h4>
+                <p>Torta con relleno de Manjarate (10 personas)</p>
+                <h5>$24.990</h5>
+                <a href="" class="btn btn-secundary">Ver Producto <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 20 20">
+                  <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                </svg></a>
+              </div>
+          </div>
+      </div>
+      <!--API DE CAMBIO DE MONEDA-->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 style="color: rgb(77, 0, 0); font-family: 'Outfit', sans-serif; text-align: left;">Revisa tu Moneda</h1>
+          <form id="currencyConverter">
+            <label for="amount" style="color: rgb(0, 0, 0); font-family: 'Outfit', sans-serif; text-align: left;">Ingrese cantidad:</label>
+            <input type="number" id="amount" placeholder="Ingrese la cantidad" required>
+
+            <label for="fromCurrency" style="color: rgb(0, 0, 0); font-family: 'Outfit', sans-serif; text-align: left;">Cambio de moneda: </label>
+            <select id="fromCurrency" required>
+      <!-- Lista de códigos de moneda -->
+            </select>
+
+            <select id="toCurrency" required>
+      <!-- Lista de códigos de moneda -->
+            </select>
+
+            <button type="button" onclick="convertirMoneda()" class="btn btn-dark">Convertir</button>
+         </form>
+
+        <div id="result"></div>
+
+        <script>
+      const amountInput = document.getElementById("amount");
+      const fromCurrencySelect = document.getElementById("fromCurrency");
+      const toCurrencySelect = document.getElementById("toCurrency");
+      const resultElement = document.getElementById("result");
+
+      document.addEventListener("DOMContentLoaded", () => {
+        cargarCurrencies();
+      });
+
+      function cargarCurrencies() {
+        fetch("https://open.er-api.com/v6/latest")
+          .then(response => response.json())
+          .then(data => {
+            const currencies = Object.keys(data.rates);
+            currencies.forEach(currency => {
+              const option1 = document.createElement("option");
+              option1.value = currency;
+              option1.text = currency;
+              fromCurrencySelect.add(option1);
+
+              const option2 = document.createElement("option");
+              option2.value = currency;
+              option2.text = currency;
+              toCurrencySelect.add(option2);
+            });
+          })
+          .catch(error => console.error("Error al cargar tasas de cambio:", error));
+      }
+
+      function convertirMoneda() {
+        const amount = parseFloat(amountInput.value);
+        const fromCurrency = fromCurrencySelect.value;
+        const toCurrency = toCurrencySelect.value;
+
+        if (isNaN(amount) || amount <= 0) {
+          resultElement.textContent = "Ingrese una cantidad válida.";
+          return;
+        }
+
+        fetch(`https://open.er-api.com/v6/latest?base=${fromCurrency}`)
+          .then(response => response.json())
+          .then(data => {
+            const exchangeRate = data.rates[toCurrency];
+            const convertedAmount = amount * exchangeRate;
+
+            resultElement.textContent = `${amount} ${fromCurrency} = ${convertedAmount.toFixed(2)} ${toCurrency}`;
+            resultElement.style.color = "black";
+          })
+          .catch(error => console.error("Error al obtener tasa de cambio:", error));
+      }
+        </script>
+        </div>
+      </div>
+    </div><br><br>
+      <footer class="footer" id="footer">
+        <div class="container-fluid fondo">
+          <div class="row justify-content-center">
+              <div class="col-md-4">
+                  <h3 class="footer-titulo">Contáctanos</h3>
+                  <ul class="footer-contactos">
+                      <li><i id="icon" class="fas fa-map-marker-alt"></i> Dirección: Pje. Huaiquillo 1661, Maipú</li>
+                      <li><i class="fas fa-phone"></i> Telefono: 9-6207-5651</li>
+                      <li><i class="fas fa-envelope"></i> Correo: caritopastelito@gmail.com</li>
+                  </ul>
+              </div>
+              <div class="col-md-4">
+                <h3 class="footer-titulo">Nuestras redes</h3>
+                <ul class="footer-redes">
+                    <li><a href="https://www.instagram.com/carito_pasteleriacasera/" class="fab fa-instagram" target="_blank"> carito_pasteleriacasera</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="footer-copy">
+                <p>@copyright Derechos reservados.</p>
+              </div>
+          </div>
+        </div>
+      </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
